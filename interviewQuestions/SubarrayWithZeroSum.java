@@ -1,4 +1,4 @@
-package sets;
+package interviewQuestions;
 
 /*
  * Given an array, find if there exists a subarray with sum equals to zero.
