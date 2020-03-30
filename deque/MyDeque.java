@@ -6,30 +6,30 @@ public class MyDeque<E> {
 	
 	public void addToHead(E data) {
 		Node<E> toAdd = new Node<>(data);
-		
 		if(head == null) {
 			head = tail = toAdd;
-			return;
 		}
-		
+		else {
 		head.next = toAdd;
 		toAdd.prev = head;
-		head = toAdd;
+		head = head.next;
+		}
 	} 
 	
 	public E removeLast() {
 		if(head == null) {
 			return null;
 		}
-		
 		Node<E> toRemove = tail;
+		if(tail.next == null) {
+			tail = head = null;
+			return toRemove.data;
+		}
 		tail = tail.next;
 		tail.prev = null;
-		
 		if(tail == null) {
 			head = null;
 		}
-		
 		return toRemove.data;
 	}
 	
