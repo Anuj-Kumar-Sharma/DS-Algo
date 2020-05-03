@@ -43,24 +43,23 @@ class Pen {
 		return result;
 	}
 
-//	@Override
-//	public boolean equals(Object obj) {
-//		if (this == obj)
-//			return true;
-//		if (obj == null)
-//			return false;
-//		if (getClass() != obj.getClass())
-//			return false;
-//		Pen other = (Pen) obj;
-//		if (color == null) {
-//			if (other.color != null)
-//				return false;
-//		} else if (!color.equals(other.color))
-//			return false;
-//		if (price != other.price)
-//			return false;
-//		return true;
-//	}
-	
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Pen other = (Pen) obj;
+		if (color == null) {
+			if (other.color != null)
+				return false;
+		} else if (!color.equals(other.color))
+			return false;
+		if (price != other.price)
+			return false;
+		return true;
+	}
 	
 }
