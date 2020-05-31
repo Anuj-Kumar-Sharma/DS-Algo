@@ -2,7 +2,7 @@ package linkedLists;
 
 public class MyLinkedList<E> {
 
-	Node<E> head;
+	Node<E> head; //E is the Class defining the type of the inputs accepted
 	
 	public void add(E data) {
 		Node<E> toAdd = new Node<E>(data);
@@ -12,11 +12,11 @@ public class MyLinkedList<E> {
 			return;
 		}
 		
-		Node<E> temp = head;
-		while(temp.next != null) {
+		Node<E> temp = head;//initialising temp as head to traverse the Linked list without breaking the chain
+		while(temp.next != null) {// control from loop exits as soon as next element becomes null
 			temp = temp.next;
 		}
-		temp.next = toAdd;
+		temp.next = toAdd;// adding the new node after reacing to the end of linked list
 	}
 	
 	void print() {
@@ -48,7 +48,7 @@ public class MyLinkedList<E> {
 			temp = temp.next;
 		}
 		Node<E> toRemove = temp.next;
-		temp.next = null;
+		temp.next = null; // changing the pointer of temp.next from toRemove to null,and garbage collection is done automatically
 		return toRemove.data;
 	}
 	
@@ -68,7 +68,7 @@ public class MyLinkedList<E> {
 		public E data;
 		public Node<E> next;
 		
-		public Node(E data) {
+		public Node(E data) { //constructor
 			this.data = data;
 			next = null;
 		}
