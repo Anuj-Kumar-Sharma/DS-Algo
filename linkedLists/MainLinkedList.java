@@ -9,7 +9,7 @@ public class MainLinkedList {
 		MyLinkedList<String> myLL = new MyLinkedList();
 		
 		for(int i = 0; i<10; i++) {
-			myLL.add(i+"added");
+			myLL.add(i+"added");//print method use to print data and the link list
 		}
 	
 		myLL.print();
