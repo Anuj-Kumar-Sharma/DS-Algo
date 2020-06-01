@@ -7,7 +7,7 @@ public class MyStack<E> {
 	private MyLinkedList<E> ll = new MyLinkedList<>();
 	
 	void push(E e) {
-		ll.add(e);//add the element in the linked list
+		ll.add(e);//add the element in the last node of the linked list
 	}
 	
 	E pop() throws Exception {
