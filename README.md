@@ -1,5 +1,5 @@
 # DS-Algo
-Implementation of Data structures and Algorithms at Apni Kaksha Java Placement Course.
+Implementation of Data structures and Algorithms at <a href="https://www.youtube.com/channel/UCF7BExjT2zH_mmyqOB139Dg">Apni Kaksha</a> Java Placement Course.
 <br>
 <h3>Installation</h3>
 <ul>
@@ -8,7 +8,7 @@ Implementation of Data structures and Algorithms at Apni Kaksha Java Placement C
 </ul>
 
 <br>
-<h3>Topic Covered</h3>
+<h3>Topics Covered</h3>
 <ul>
   <li><a href="https://www.youtube.com/watch?v=A05CDzFJ010&list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s&index=44&t=0s">Vector</a></li>
   <li><a href ="https://www.youtube.com/watch?v=A05CDzFJ010&list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s&index=44&t=0s">Stacks</a></li>
