@@ -24,3 +24,7 @@ Implementation of Data structures and Algorithms at Apni Kaksha Java Placement C
 </ul>
 <br>
 <h3>YouTube Playlist (Video tutorial)- <a href ="https://www.youtube.com/watch?v=lxja8wBwN0k&list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s">Java Data Structures and Algorithm</a></h3>
+
+This repository is created by <a href="https://www.youtube.com/channel/UCF7BExjT2zH_mmyqOB139Dg">Apni Kakasha</a>
+
+All pull request is welcomed

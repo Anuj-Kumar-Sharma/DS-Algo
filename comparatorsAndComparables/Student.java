@@ -1,6 +1,6 @@
 package comparatorsAndComparables;
 
-public class Student {
+public class Student implements Comparable<Student>{
 	
 	int marks;
 	String name;
