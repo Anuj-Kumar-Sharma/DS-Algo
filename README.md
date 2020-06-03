@@ -1,4 +1,4 @@
-# DS-Algo
+# Data Structures-Algorithms
 Implementation of Data structures and Algorithms at Apni Kaksha Java Placement Course.
 <br>
 <h3>Installation</h3>
