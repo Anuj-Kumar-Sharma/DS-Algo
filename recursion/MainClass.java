@@ -51,6 +51,6 @@ public class MainClass {
 	static int path(int n, int m) {
 		if(n == 1 || m == 1) return 1;
 		
-		return path(n, m-1) + path(m, n-1);
+		return path(n, m-1) + path(m, n-1);//no. of ways to traverse in n*m grid from top right corner to bottom left corner
 	}
 }
