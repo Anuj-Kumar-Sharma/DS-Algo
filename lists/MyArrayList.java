@@ -8,6 +8,7 @@ public class MyArrayList {
 
 	public static void main(String[] args) {
 
+
 		List<String> fruits = new LinkedList();  //We declared a linked list with object fruits of type string
 		
 		fruits.add("Apple");                     // String Apple added to linkedlist fruits
@@ -20,6 +21,20 @@ public class MyArrayList {
 		
 		for(String e: temp) {                // putting string of every position in temp array to String e using for each loop
 			System.out.println(e);       // printing of arrays of string from array temp
+
+		List<String> fruits = new LinkedList();
+
+		fruits.add("Apple");
+		fruits.add("Orange");
+		fruits.add("Hi");
+
+		String temp[] = new String[fruits.size()];
+
+		fruits.toArray(temp);
+
+		for (String e : temp) {
+			System.out.println(e);
+
 		}
 	}
 
