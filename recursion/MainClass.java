@@ -47,7 +47,7 @@ public class MainClass {
 		}
 		return a*fastPow(a, b-1);
 	}
-	
+	//recursive method to find total no.paths to travel from top left corner to bottom right corner in a n*m grid
 	static int path(int n, int m) {
 		if(n == 1 || m == 1) return 1;
 		
