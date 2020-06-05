@@ -1,14 +1,29 @@
-# DS-Algo
+<h1 align="center">
+  <p align="center">Apni Kaksha</p>
+  <a href="https://www.youtube.com/channel/UCF7BExjT2zH_mmyqOB139Dg"><img src="https://yt3.ggpht.com/a/AATXAJxk5Lco5896y5RmOzwRaubYGVohvzf9eUZ7kA=s288-c-k-c0xffffffff-no-rj-mo" alt="Apni Kaksha"></a>
+</h1>
+
+<p align="center">
+<a href="CONTRIBUTING.md#pull-requests"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+<a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg"></a>
+</p>
+
+<h1 align="center">
+  <p align="center">DS-Algo</p>
+
+## Introduction
+
 Implementation of Data structures and Algorithms at Apni Kaksha Java Placement Course.
-<br>
-<h3>Installation</h3>
+
+## Installation
+
 <ul>
   <li><a href="https://www.oracle.com/java/technologies/javase-downloads.html"> JDK - Download</a></li>
   <li><a href="https://www.eclipse.org/downloads/"> Eclipse IDE - Download </a></li>
 </ul>
 
-<br>
-<h3>Topic Covered</h3>
+## Topic Covered
+
 <ul>
   <li><a href="https://www.youtube.com/watch?v=A05CDzFJ010&list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s&index=44&t=0s">Vector</a></li>
   <li><a href ="https://www.youtube.com/watch?v=A05CDzFJ010&list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s&index=44&t=0s">Stacks</a></li>
@@ -22,5 +37,11 @@ Implementation of Data structures and Algorithms at Apni Kaksha Java Placement C
   <li><a href ="https://www.youtube.com/watch?v=zSX7N5MolB8&list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s&index=36&t=0s">Interfaces</a></li>
   <li><a href ="https://www.youtube.com/watch?v=V_NVMqxcNaI&list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s&index=47&t=0s">Doubly Ended Queue</a></li>
 </ul>
-<br>
+
+## Contributing
+
+Hey guys, we have created this channel to provide quality education to students who want to learn, grow and do something beautiful with their life. In return we want you to do the same to your juniors and help the youth of this nation to find its right path. Love you all 3000.
+
+We hope that other organizations can benefit from the project. We are thankful for any contributions from the community.
+
 <h3>YouTube Playlist (Video tutorial)- <a href ="https://www.youtube.com/watch?v=lxja8wBwN0k&list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s">Java Data Structures and Algorithm</a></h3>
