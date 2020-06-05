@@ -11,8 +11,8 @@ public class MainLinkedList {
 		for(int i = 0; i<10; i++) {
 			myLL.add(i+"added");
 		}
-	
-		myLL.print();//print method use to print data and the link list
+	//print method use to print data and the link list
+		myLL.print();
 	}
 
 }
