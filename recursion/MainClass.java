@@ -47,7 +47,7 @@ public class MainClass {
 		}
 		return a*fastPow(a, b-1);
 	}
-	
+	//recursive function to find total no. of paths in n*m grid
 	static int path(int n, int m) {
 		if(n == 1 || m == 1) return 1;
 		
