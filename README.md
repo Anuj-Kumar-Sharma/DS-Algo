@@ -1,5 +1,5 @@
 # Data Structures-Algorithms
-Implementation of Data structures and Algorithms at Apni Kaksha Java Placement Course.
+Implementation of Data structures and Algorithms at Apni Kaksha Java Placement Course.It covers all the important Data structures and Algorithms and also some problems which are really important from the interview point of view.
 <br>
 <h3>Installation</h3>
 <ul>
@@ -23,4 +23,4 @@ Implementation of Data structures and Algorithms at Apni Kaksha Java Placement C
   <li><a href ="https://www.youtube.com/watch?v=V_NVMqxcNaI&list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s&index=47&t=0s">Doubly Ended Queue</a></li>
 </ul>
 <br>
-<h3>YouTube Playlist <a href ="https://www.youtube.com/watch?v=lxja8wBwN0k&list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s">Java ,Data Structures and Algorithms</a></h3>
+<h3>YouTube Playlist: <a href ="https://www.youtube.com/watch?v=lxja8wBwN0k&list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s">Java ,Data Structures and Algorithms</a></h3>
