@@ -14,7 +14,7 @@ public class MainClass {
 		students.add(new Student(13, "Rohit"));
 		students.add(new Student(65, "Anuj"));
 
-		Collections.sort(students); // It accept an List type argument which must extends comparable
+		Collections.sort(students); // It accept a List type argument which must extends comparable
 
 		students.forEach(System.out::println); // LAMBDA FUNCTION
 		/*
