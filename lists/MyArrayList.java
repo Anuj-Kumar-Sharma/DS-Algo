@@ -20,6 +20,19 @@ public class MyArrayList {
 		
 		for(String e: temp) {	 // putting string of every position in temp array to String e using for each loop
 			System.out.println(e);	// printing of arrays of string of array temp through use of string e
+
+		List<String> fruits = new LinkedList();
+
+		fruits.add("Apple");
+		fruits.add("Orange");
+		fruits.add("Hi");
+
+		String temp[] = new String[fruits.size()];
+
+		fruits.toArray(temp);
+
+		for (String e : temp) {
+			System.out.println(e);
 		}
 	}
 

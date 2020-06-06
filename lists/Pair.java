@@ -12,6 +12,18 @@ public class Pair<X, Y> {		// we have used generics of type X and Y
 	
 	public void getDescription() {		// created metho getDescription with public access modifier and void return type void
 		System.out.println(x +" and " + y);	// printing value of x and y of global variable
+
+	X x;
+	Y y;
+
+	public Pair(X x, Y y) {
+		this.x = x;
+		this.y = y;
 	}
-	
+
+	public void getDescription() {
+		System.out.println(x + " and " + y);
+
+	}
+
 }
