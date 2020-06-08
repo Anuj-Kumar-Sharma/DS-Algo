@@ -1,10 +1,10 @@
 package comparatorsAndComparables;
 
 public class Student {
-	
+
 	int marks;
 	String name;
-	
+
 	public Student(int marks, String name) {
 		super();
 		this.marks = marks;
@@ -32,7 +32,6 @@ public class Student {
 		this.name = name;
 	}
 
-	
 	public int compareTo(Student obj) {
 		return this.marks - obj.marks;
 	}
