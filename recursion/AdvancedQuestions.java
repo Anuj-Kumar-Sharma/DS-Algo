@@ -74,9 +74,13 @@ public class AdvancedQuestions {
 		}
 		a[r][c] = toFill;
 		
+		//recursing for above of the a[r][c]
 		floodFill(a, r-1, c, toFill, prevFill);
+		//recursing for right of the a[r][c]
 		floodFill(a, r, c-1, toFill, prevFill);
+		//recursing for below of the a[r][c]
 		floodFill(a, r+1, c, toFill, prevFill);
+		//recursing for left of the a[r][c]
 		floodFill(a, r, c+1, toFill, prevFill);
 	}
 	
