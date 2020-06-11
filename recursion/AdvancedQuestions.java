@@ -66,9 +66,11 @@ public class AdvancedQuestions {
 		int rows = a.length;
 		int cols = a[0].length;
 		
+		//corner cases
 		if(r < 0 || r >= rows || c < 0 || c >= cols) {
 			return;
 		}
+		//return if element other than prevfill is present
 		if(a[r][c] != prevFill) {
 			return;
 		}
