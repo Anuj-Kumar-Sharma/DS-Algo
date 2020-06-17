@@ -6,11 +6,13 @@ public class MainClass {
 	public static void main(String[] args) {
 
 		Set<Integer> x = new HashSet<>();
+		//adding element to set x
 		x.add(23);
 		x.add(1);
 		x.add(6);
 		
 		Set<Integer> y = new HashSet<>();
+		//adding element to set y
 		y.add(1);
 		y.add(12);
 		
