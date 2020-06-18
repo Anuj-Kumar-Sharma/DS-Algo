@@ -19,9 +19,13 @@ public class MainClass {
 		mq.enqueue(123);
 		mq.enqueue(45);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 		
+=======
+		mq.enqueue(47);
+>>>>>>> c87fe75... Added one more enqueue
 		
 >>>>>>> 24de017... Initial commit
 		System.out.println(mq.dequeue());
