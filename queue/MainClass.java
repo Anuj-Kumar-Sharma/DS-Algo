@@ -6,10 +6,14 @@ public class MainClass {
 
 		MyQueue<Integer> mq = new MyQueue<>();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 		
 >>>>>>> 24de017... Initial commit
+=======
+		//adding of elements to queue
+>>>>>>> adc9847... Modified main class of queue
 		mq.enqueue(12);
 		mq.enqueue(2);
 		mq.enqueue(123);
