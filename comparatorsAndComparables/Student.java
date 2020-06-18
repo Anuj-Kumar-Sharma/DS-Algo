@@ -1,10 +1,17 @@
 package comparatorsAndComparables;
 
 public class Student {
+<<<<<<< HEAD
 
 	int marks;
 	String name;
 
+=======
+	
+	int marks;
+	String name;
+	
+>>>>>>> 24de017... Initial commit
 	public Student(int marks, String name) {
 		super();
 		this.marks = marks;
@@ -32,6 +39,10 @@ public class Student {
 		this.name = name;
 	}
 
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 24de017... Initial commit
 	public int compareTo(Student obj) {
 		return this.marks - obj.marks;
 	}
