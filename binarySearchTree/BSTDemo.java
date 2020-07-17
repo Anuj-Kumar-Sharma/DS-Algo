@@ -1,4 +1,4 @@
-package com.std;
+package binarySearchTree;
 
 public class BSTDemo {
 
