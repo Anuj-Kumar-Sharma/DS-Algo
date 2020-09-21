@@ -23,6 +23,7 @@ class GraphBellman {
 
 	// Creates a graph with V vertices and E edges 
 	GraphBellman(int v, int e) 
+	{ 
 		V = v; 
 		E = e; 
 		edge = new Edge[e]; 
