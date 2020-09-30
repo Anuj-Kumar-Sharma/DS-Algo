@@ -1,0 +1,14 @@
+    public boolean isPalindrome(ListNode head) {
+        if(head==null || head.next==null) return true;
+
+        ListNode mid=mid(head);
+        ListNode rev=reverse(mid);
+        while(rev!=null)
+        { 
+            if(head.val!=rev.val) return false;
+            head=head.next;
+            rev=rev.next;
+        }
+
+        return true;
+    }
