@@ -37,5 +37,14 @@ public class MyStack<E> {
 
 
 	}
+	
+	boolean searchElement(E e){
+		return ll.search(e);
+	} 
+
+	void deleteStack(){
+		ll.deleteList();
+	}
+	
 
 }
