@@ -69,6 +69,26 @@ public class MyLinkedList<E> {
 		}
 		return temp.data;
 	}
+	
+	 public boolean search(E e) {
+		//Checks if a certain element is present in the linked list 
+        
+                Node<E> temp = head;    
+                while (temp != null) {
+                     
+                       if (temp.data == e) 
+                           return true;    //data found 
+                           temp = temp.next; 
+                    } 
+                           return false;   //data not found 
+       } 
+
+	public void deleteList() {
+     
+        head = null; 
+		System.out.println(" list deleted ");
+
+    } 
 
 	public static class Node<E> {
 		public E data;
