@@ -27,5 +27,15 @@ public class MyStack<E> {
 		}
 		return ll.getLast();
 	}
+	
+		void printAll() throws Exception {
+	//handling the empty linked list while trying to print all the elements of the stack.
+	    if(ll.isEmpty()) {
+			throw new Exception("Printing an empty stack is not allowed");
+        }
+		ll.print();//print all the elements that are currently present in the stack.
+
+
+	}
 
 }
