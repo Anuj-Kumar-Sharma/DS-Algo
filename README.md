@@ -1,5 +1,5 @@
 # Data Structures-Algorithms
-Implementation of Data structures and Algorithms.It covers all the important Data structures and Algorithms and also some problems which are really important from the interview point of view.
+Implementation of Data structures and Algorithms in Java. It covers all the important Data structures and Algorithms and also some problems which are really important from the interview point of view. The codes are very much useful from C.P. point of view as well.
 <br>
 <h3>Installation</h3>
 <ul>
