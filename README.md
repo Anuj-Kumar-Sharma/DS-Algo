@@ -1,5 +1,7 @@
 # Data Structures-Algorithms
-Implementation of Data structures and Algorithms at Apni Kaksha Java Placement Course.It covers all the important Data structures and Algorithms and also some problems which are really important from the interview point of view.
+Implementation of Data structures and Algorithms at Apni Kaksha Java Placement Course.It covers all the important Data structures and Algorithms and also coding problems which are really important from the interview point of view.
+<br>Anuj Bhaiya is the creator of this course.If you have any kind of doubts,you may reach him out:<a href="https://www.instagram.com/anuj.kumar.sharma/"></i>Anuj Kumar Sharma</a>
+
 <br>
 <h3>Installation</h3>
 <ul>
