@@ -16,7 +16,7 @@ public class MyArrayList {
 		fruits.add("Hi");
 
 		String temp[] = new String[fruits.size()];
-
+		// converting the list 'fruits' to array
 		fruits.toArray(temp);
 
 		for (String e : temp) {
