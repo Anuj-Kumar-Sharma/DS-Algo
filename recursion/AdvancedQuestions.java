@@ -24,7 +24,9 @@ public class AdvancedQuestions {
 		
 //		permutations("abcc", 0, 3);
 		
-		int a[] = {1, 5, 700, 2};
+// 		int a[] = {1, 5, 700, 2};
+		int a[]= {1,10,10,10,400};
+		
 		System.out.println(coinMax(a, 0, a.length-1));
 		
 	}
