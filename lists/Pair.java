@@ -1,5 +1,5 @@
 package lists;
-
+//nothing
 public class Pair<X, Y> {
 
 	X x;
